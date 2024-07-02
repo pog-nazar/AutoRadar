@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher
 from aiogram.utils import executor
-from bot.data import data
+from data import data
 import logging
 
 API_TOKEN = data["BOT_TOKEN"]
