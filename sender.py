@@ -11,7 +11,7 @@ CHANNEL_ID = "@AirRaidNews"
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=API_TOKEN, proxy="http://proxy.server:3128")
 dp = Dispatcher(bot)
 
 
