@@ -1,9 +1,12 @@
 from aiogram import Bot, Dispatcher
 from aiogram.utils import executor
-from data import data
 import logging
+from dotenv import load_dotenv
+import os
 
-API_TOKEN = data["BOT_TOKEN"]
+load_dotenv()
+
+API_TOKEN = os.environ.get("TOKEN")
 CHANNEL_ID = "@AirRaidNews"
 
 logging.basicConfig(level=logging.INFO)
