@@ -10,7 +10,7 @@ test_channel = "testradar123"
 client = TelegramClient("AutoRadar", api_id, api_hash)
 
 
-@client.on(events.NewMessage(chats=test_channel))
+@client.on(events.NewMessage(chats=channel))
 async def handler(event):
     await send_message_to_channel(event.message.text)
 
