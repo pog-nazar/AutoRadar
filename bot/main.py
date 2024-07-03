@@ -1,6 +1,6 @@
 from telethon import TelegramClient, events
 from data import data
-from bot.sender import send_message_to_channel
+from sender import send_message_to_channel
 
 api_id = data["api_id"]
 api_hash = data["api_hash"]
