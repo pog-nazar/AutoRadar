@@ -4,7 +4,7 @@ from data import data
 import logging
 
 API_TOKEN = data["BOT_TOKEN"]
-CHANNEL_ID = "@testingRadar1"
+CHANNEL_ID = "@AirRaidNews"
 
 logging.basicConfig(level=logging.INFO)
 

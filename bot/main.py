@@ -5,7 +5,6 @@ from sender import send_message_to_channel
 api_id = data["api_id"]
 api_hash = data["api_hash"]
 channel = "@air_alert_ua"
-test_channel = "@testRadar2"
 
 client = TelegramClient("AutoRadar", api_id, api_hash)
 
